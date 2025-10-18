@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Allow requests only from your frontend (replace with your Netlify URL)
 app.use(cors({
-  origin: "https://your-frontend.netlify.app",
+  origin: "https://sptelugintiruchulu.netlify.app/",
 }));
 
 // Initialize Razorpay instance
